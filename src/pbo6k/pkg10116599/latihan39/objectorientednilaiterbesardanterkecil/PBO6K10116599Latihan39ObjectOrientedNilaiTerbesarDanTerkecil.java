@@ -5,6 +5,8 @@
  */
 package pbo6k.pkg10116599.latihan39.objectorientednilaiterbesardanterkecil;
 
+import java.util.Scanner;
+
 /**
  *
  * @author eka
@@ -16,6 +18,16 @@ public class PBO6K10116599Latihan39ObjectOrientedNilaiTerbesarDanTerkecil {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        // Variabel
+        int  banyakNilai, nilai;
+        String namaPetugas;
+        
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.println("====Program Nilai Terbesar dan Terkecil Nilai Mahasiswa===");
+        System.out.print("Masukkan Nama Petugas : ");
+        namaPetugas=scan.next();
     }
     
 }
